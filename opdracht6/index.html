@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+    <title></title>
+    <style>
+        .rechts {
+            float: right;
+            width: 50%;
+        }
+
+        .links{
+            float: left;
+            width: 50%;
+        }
+        .alo{margin-left: 55px;}
+        .alo2{margin-left: 20px;}
+        .alo3{margin-left: 45px;}
+        .alo4{margin-left: 60px}
+        .alo5{margin-left:50px}
+        .alo6{margin-left: 25px;}
+        .alo7{margin-left: 120px; width: 250px}
+        .alo8{margin-left: 70px;  margin-top: 0px}
+        .alo9{margin-top: 330px}
+
+
+    </style>
+</head>
+
+
+<body>
+<form action="http://www.voormbo.nl/courses/html15/formtest.php " method="post">
+    <ul>
+        <div class="links">
+            <li><h1>Voorbeeld formulier</h1></li>
+            </header>
+
+
+            <li><label>voornaam</label>
+                <input class="alo" type="" name=""></li>
+            <br>
+
+
+            <li><label>tussentoevegen</label>
+                <input class="alo2" type="" name=""></li>
+            <br>
+
+            <li><label>achternaam</label>
+                <input class="alo3" type="" name=""></li>
+            <br>
+
+
+            <label>Gaslacht</label>
+            <input class="alo4" type="radio" name="gender" value="man" checked> Man
+            <input type="radio" name="gender" value="vrouw"> vrouw
+            <br><br>
+
+
+            <label>kleur ogen</label>
+            <select class="alo5">
+                <option value="volvo">blue</option>
+                <option value="saab">green</option>
+                <option value="mercedes">black</option>
+
+            </select> <br><br><br>
+
+
+            <label>Geboetedatum</label>
+            <input class="alo6" type="date">
+            <br><br><br>
+
+
+            <label>omschrijven</label>
+
+            <br><textarea class="alo7" rows="4" cols="50"></textarea>
+        </div>
+
+        <br>
+        <div class="rechts">
+            <label>lekker eten</label>
+            <ul class="alo8">
+                <input type="checkbox" name="vehicle" value=""> sparsebonnen<br>
+                <input type="checkbox" name="vehicle" value="Car" checked> aarappels<br>
+                <input type="checkbox" name="vehicle" value=""> tomaat
+            </ul>
+            <br>
+
+            <BUTTON
+            >annuleren
+            </BUTTON>
+            <b></b>
+
+
+            <button class="alo9"  type="submit" name="submit">ok</button>
+        </div>
+
+
+    </ul>
+</form>
+
+
+</body>
+</html>
